@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-decorators": "^7.1.2",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
@@ -113,14 +112,6 @@
         {
           "legacy": true
         }
-      ],
-      [
-        [
-          "@babel/plugin-proposal-class-properties",
-          {
-            "loose": true
-          }
-        ]
       ]
     ],
     "presets": [
