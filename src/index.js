@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import store from './js/store/IceCreamStore';
 import {Provider} from 'mobx-react'
-console.log(store);
 //@ts-ignore
 window.store = store;
 
